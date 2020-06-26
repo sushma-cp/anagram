@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  anagramServer:
+    build:
+      context: .
+    image: javaAnagram/anagramServer
+    ports:
+      - "80:80"
